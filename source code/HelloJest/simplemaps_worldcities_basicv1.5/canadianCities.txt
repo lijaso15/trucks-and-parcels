@@ -1,0 +1,250 @@
+Selkirk
+Trepassey
+Schefferville
+Whitehorse
+Trout River
+Yorkton
+Antigonish
+Gander
+Berens River
+Port-Menier
+Wetaskiwin
+Shamattawa
+Steinbach
+Thunder Bay
+Oshawa
+Chicoutimi
+Melville
+Brooks
+Dauphin
+Smithers
+Terrace
+Lutselke
+Resolute
+Quesnel
+Island Lake
+Halifax
+Watson Lake
+Sydney
+Dawson Creek
+Uranium City
+Timmins
+Saskatoon
+Iqaluit
+Alert
+Thessalon
+Yellowknife
+Camrose
+Campbell River
+Revelstoke
+Meadow Lake
+Atikokan
+Creston
+Gillam
+Cranbrook
+Little Current
+Calgary
+Big Beaver House
+Parry Sound
+Kamloops
+Dolbeau
+St. John's
+Lansdowne House
+Paulatuk
+Attawapiskat
+Rimouski
+Grand Prairie
+La Sarre
+Mingan
+Prince Albert
+Moose Jaw
+Powell River
+Pangnirtung
+Nelson
+Peace River
+Cobalt
+New Glasgow
+Arctic Bay
+Burwash Landing
+Saint-Georges
+Vancouver
+Medicine Hat
+Port Hope Simpson
+Deer Lake
+Vegreville
+Bella Bella
+Rankin Inlet
+Owen Sound
+Lac La Biche
+Hopedale
+Norway House
+Coral Harbour
+Kugluktuk
+Norman Wells
+Fort Resolution
+Fort McPherson
+Forteau
+Kuujjuaq
+Cape Dorset
+Cartwright
+Flin Flon
+Holman
+Pembroke
+Baker Lake
+Moosonee
+Dryden
+Corner Brook
+Kelowna
+Fort Smith
+Fort Severn
+Mont-Laurier
+Channel-Port aux Basques
+Kindersley
+Igloolik
+Hudson Bay
+Courtenay
+Mistassini
+Kingston
+Eastmain
+Baie-Comeau
+North Bay
+North Battleford
+Grise Fiord
+Hay River
+Stony Rapids
+Hinton
+Toronto
+Edmonton
+Gjoa Haven
+Fort Simpson
+Repulse Bay
+Lethbridge
+Sudbury
+Swift Current
+Regina
+Cornwall
+Taloyoak
+Tuktoyaktuk
+Deer Lake
+London
+Natashquan
+Cap-Chat
+Orillia
+Kenora
+Barrie
+Sherbrooke
+St. Anthony
+Rigolet
+Fort Good Hope
+La Scie
+Fort St. John
+Marathon
+Gaspe
+Nelson House
+Lillooet
+Fort McMurray
+Jasper
+Buchans
+Stettler
+La Ronge
+Brochet
+Baddeck
+Pond Inlet
+St-Augustin
+Gimli
+Red Lake
+Stephenville
+Ennadai
+Happy Valley - Goose Bay
+Williams Lake
+Prince Rupert
+Chilliwack
+Radisson
+Churchill
+Port Hardy
+Penticton
+Drummondville
+Brandon
+Argentia
+Kimmirut
+Wiarton
+Ottawa
+Fort Chipewyan
+Fort Nelson
+Lynn Lake
+Weyburn
+Burns Lake
+Nain
+Prince George
+Cochrane
+Nipigon
+Riviere-du-Loup
+St.-Jerome
+Geraldton
+New Liskeard
+Cat Lake
+Tofino
+Tsiigehtchic
+Thompson
+Abbotsford
+Trois Rivieres
+Peterborough
+Amos
+Chapleau
+Athabasca
+Red Deer
+Belleville
+Kapuskasing
+Sioux Lookout
+Winnipeg
+Lake Louise
+Banff
+Doline
+Cambridge Bay
+Biggar
+Nanaimo
+Val d'Or
+Hall Beach
+Oxford House
+The Pas
+Meander River
+Bathurst
+Windsor
+Victoriaville
+Brockville
+Hamilton
+Kitchener
+Victoria
+Orangeville
+Sandspit
+Wawa
+Kangirsuk
+Shawinigan
+Hearst
+Pukatawagan
+Arviat
+Matagami
+Saint John
+Inuvik
+Chesterfield Inlet
+Rouyn-Noranda
+Liverpool
+Montreal
+Shelburne
+Yarmouth
+Salluit
+Ivugivik
+Quebec
+Dawson City
+Moncton
+Digby
+Fredericton
+Dease Lake
+Charlottetown
+Inukjuak
+Sarnia
+Edmundston
+Windsor
+Joliette
+Amherst
+Sept-Iles
