@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/trucks-and-parcels/static/css/main.3df3fac3.chunk.css",
+    "main.js": "/trucks-and-parcels/static/js/main.00767cd3.chunk.js",
+    "main.js.map": "/trucks-and-parcels/static/js/main.00767cd3.chunk.js.map",
+    "runtime~main.js": "/trucks-and-parcels/static/js/runtime~main.ad15ff89.js",
+    "runtime~main.js.map": "/trucks-and-parcels/static/js/runtime~main.ad15ff89.js.map",
+    "static/css/2.62908225.chunk.css": "/trucks-and-parcels/static/css/2.62908225.chunk.css",
+    "static/js/2.0784ab7d.chunk.js": "/trucks-and-parcels/static/js/2.0784ab7d.chunk.js",
+    "static/js/2.0784ab7d.chunk.js.map": "/trucks-and-parcels/static/js/2.0784ab7d.chunk.js.map",
+    "index.html": "/trucks-and-parcels/index.html",
+    "precache-manifest.e36ef8f9f3cbca6f86502bdfd82c660a.js": "/trucks-and-parcels/precache-manifest.e36ef8f9f3cbca6f86502bdfd82c660a.js",
+    "service-worker.js": "/trucks-and-parcels/service-worker.js",
+    "static/css/2.62908225.chunk.css.map": "/trucks-and-parcels/static/css/2.62908225.chunk.css.map",
+    "static/css/main.3df3fac3.chunk.css.map": "/trucks-and-parcels/static/css/main.3df3fac3.chunk.css.map"
+  }
+}
