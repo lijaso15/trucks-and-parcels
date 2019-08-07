@@ -1,5 +1,5 @@
 # trucks-and-parcels
-Visualizing various combinations travelling salesman and knapsack problem solutions
+Visualizing and comparing various combinations travelling salesman and knapsack problem solutions
 
 https://lijaso15.github.io/trucks-and-parcels/
 
