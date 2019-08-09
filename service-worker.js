@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trucks-and-parcels/precache-manifest.e36ef8f9f3cbca6f86502bdfd82c660a.js"
+  "/trucks-and-parcels/precache-manifest.ee31924d8699269c0aa2891528805491.js"
 );
 
 self.addEventListener('message', (event) => {

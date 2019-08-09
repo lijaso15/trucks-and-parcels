@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cb1d6ef34470841f6bce73ee152c4b7",
+    "revision": "1c79385aafd7f5036e8a39bbfab4d0b2",
     "url": "/trucks-and-parcels/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trucks-and-parcels/static/css/2.62908225.chunk.css"
   },
   {
-    "revision": "d420d28bf0df003f0529",
+    "revision": "cfaf1438d10aa5c720ac",
     "url": "/trucks-and-parcels/static/css/main.3df3fac3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trucks-and-parcels/static/js/2.0784ab7d.chunk.js"
   },
   {
-    "revision": "d420d28bf0df003f0529",
-    "url": "/trucks-and-parcels/static/js/main.00767cd3.chunk.js"
+    "revision": "cfaf1438d10aa5c720ac",
+    "url": "/trucks-and-parcels/static/js/main.3818328c.chunk.js"
   },
   {
     "revision": "907c04d5580aae1e69ad",
