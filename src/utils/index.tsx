@@ -78,6 +78,7 @@ export const run = (
   }
   trucks.map(t => {
     t.route = scheduler.route(t.parcels, algorithm, t);
+    console.log(t);
   });
 
   return {

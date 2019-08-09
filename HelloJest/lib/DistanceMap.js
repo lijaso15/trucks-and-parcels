@@ -50,7 +50,7 @@ var DistanceMap = /** @class */ (function () {
     };
     DistanceMap.prototype.nearestNeighbour = function (city, destinations) {
         var _this = this;
-        // console.log(this._map);
+        console.log(this._map);
         return this._map[city].reduce(function (acc, curr) {
             if (!destinations.includes(curr[0])) {
                 return acc;

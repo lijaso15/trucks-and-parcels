@@ -10,6 +10,10 @@ export default class City {
   }
 
   distance(other: City) {
+    if (this.equals(other)) {
+      return 0;
+    }
+
     return (
       Math.round(
         Math.sqrt(

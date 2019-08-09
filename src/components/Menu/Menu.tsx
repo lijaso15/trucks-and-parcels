@@ -8,8 +8,9 @@ class Menu extends React.Component {
         className="menu"
         style={{
           position: "absolute",
-          height: "100%",
-          width: "25%"
+          maxHeight: "100%",
+          width: "25%",
+          overflow: "auto"
         }}
       >
         <PointContainer isTruck={false} />

@@ -19,7 +19,12 @@ class Footer extends React.Component<FooterProps> {
 
           <div className="hero-body" />
 
-          <div className="hero-foot">
+          <div
+            className="hero-foot"
+            style={{
+              zIndex: 100
+            }}
+          >
             <nav className="tabs is-boxed is-fullwidth">
               <div className="container">
                 <ul

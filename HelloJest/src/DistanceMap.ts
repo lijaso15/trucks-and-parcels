@@ -52,7 +52,6 @@ export default class DistanceMap {
   }
 
   nearestNeighbour(city: string, destinations: string[]): string {
-    // console.log(this._map);
     return this._map[city].reduce(
       (acc: string, curr: [string, number]) => {
         if (!destinations.includes(curr[0])) {

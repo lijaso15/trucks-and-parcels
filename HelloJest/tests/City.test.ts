@@ -15,6 +15,11 @@ describe("City", () => {
     expect(c1.distance(c2)).toBe(1.41);
   });
 
+  test("distance of itself", () => {
+    let c1 = new City(0, 1);
+    expect(c1.distance(c1)).toBe(0);
+  });
+
   test("equals", () => {
     let c1 = new City(0, 0, "hi");
     let c2 = new City(0, 0);

@@ -115,6 +115,9 @@ var Scheduler = /** @class */ (function () {
         return a;
     };
     Scheduler.prototype.naive = function (parcels, truck) {
+        if (!parcels.length) {
+            return [];
+        }
         function perm(xs) {
             var ret = [];
             for (var i = 0; i < xs.length; i = i + 1) {
@@ -136,6 +139,9 @@ var Scheduler = /** @class */ (function () {
         });
     };
     Scheduler.prototype.greedy = function (parcels, truck) {
+        if (!parcels.length) {
+            return [];
+        }
         var curr = truck.depotLocation;
         var destinations = parcels.map(function (p) { return p.destination; });
         var nearest = truck.dm.nearestNeighbour(curr, destinations);

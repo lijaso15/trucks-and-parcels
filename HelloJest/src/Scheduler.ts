@@ -77,6 +77,10 @@ export default class Scheduler {
   }
 
   naive(parcels: Parcel[], truck: Truck) {
+    if (!parcels.length) {
+      return [];
+    }
+
     function perm(xs: any[]): any[] {
       let ret = [];
 
@@ -101,6 +105,10 @@ export default class Scheduler {
   }
 
   greedy(parcels: Parcel[], truck: Truck): Parcel[] {
+    if (!parcels.length) {
+      return [];
+    }
+
     let curr = truck.depotLocation;
     let destinations = parcels.map(p => p.destination);
     let nearest = truck.dm.nearestNeighbour(curr, destinations);
