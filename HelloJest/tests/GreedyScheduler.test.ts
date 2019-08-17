@@ -21,9 +21,9 @@ describe("greedy scheduler", () => {
         "non-decreasing"
       );
       let pq = gs.parcels;
-      expect(pq.getQueue().map(p => p.volume)).toStrictEqual(
-        [...Array(10).keys()].reverse()
-      );
+      expect(pq.getQueue().map(p => p.volume)).toStrictEqual([
+        ...Array(10).keys()
+      ]);
     });
   });
 
@@ -39,8 +39,8 @@ describe("greedy scheduler", () => {
     p1.priority = "destination";
     let p2 = new Parcel(1, "", "b", 4);
     p2.priority = "volume";
-    expect(gs.getPriority("non-decreasing")(p1, p2)).toBe(false);
-    expect(gs.getPriority("non-decreasing")(p2, p1)).toBe(true);
+    expect(gs.getPriority("non-decreasing")(p1, p2)).toBe(true);
+    expect(gs.getPriority("non-decreasing")(p2, p1)).toBe(false);
   });
 
   describe("schedule", () => {
@@ -57,8 +57,5 @@ describe("greedy scheduler", () => {
       "non-increasing",
       "non-decreasing"
     );
-
-    console.log(gs.schedule());
-    console.log(gs.trucks);
   });
 });

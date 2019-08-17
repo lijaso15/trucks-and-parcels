@@ -2,7 +2,7 @@ import Parcel from "./Parcel";
 import PriorityQueue from "./PriorityQueue";
 import Truck from "./Truck";
 
-type algorithm = "NAIVE" | "RANDOM" | "GREEDY";
+type algorithm = "NAIVE" | "RANDOM" | "GREEDY" | "DYNAMIC PROGRAMMING";
 
 export default class Scheduler {
   trucks: Truck[];
@@ -56,6 +56,11 @@ export default class Scheduler {
         }
         // return this.greedy(parcels, truck);
         return this.greedy(parcels, truck);
+      case "DYNAMIC PROGRAMMING":
+        if (!truck) {
+          throw new TypeError("param truck is undefined");
+        }
+        return this.dynamic(parcels, truck);
       default:
         return parcels;
     }
@@ -127,5 +132,32 @@ export default class Scheduler {
     let pq = new PriorityQueue(indexPriority);
     parcels.forEach(p => pq.add(p));
     return pq.getQueue();
+  }
+
+  dynamic(parcels: Parcel[], truck: Truck): Parcel[] {
+    function Cost(parcels: Parcel[], pi: Parcel): Parcel[] {
+      if (parcels.length === 1) {
+        return parcels;
+      }
+      const S = parcels.filter(p => !(p === pi));
+      return S.reduce((acc, pj) => {
+        let curr = Cost(S, pj).concat([pi]);
+        return truck.dm.deliveryDistance(curr.map(p => p.destination)) +
+          truck.dm.lookup(truck.depotLocation, curr[0].destination) <=
+          truck.dm.deliveryDistance(acc.map(p => p.destination)) +
+            truck.dm.lookup(truck.depotLocation, acc[0].destination)
+          ? curr
+          : acc;
+      }, Cost(S, S[0]).concat(pi));
+    }
+
+    function cost(pi: Parcel) {
+      return Cost(parcels, pi);
+    }
+
+    return parcels.reduce((acc, pi) => {
+      let path = cost(pi);
+      return truck.totalDistance(path) <= truck.totalDistance(acc) ? path : acc;
+    }, cost(parcels[0]));
   }
 }
